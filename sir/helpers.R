@@ -222,7 +222,7 @@ plot_sir <- function(parms){
 }
   
 plot_sirs <- function(parms){
-  times <- seq(from=0,to=3500,by=0.1)
+  times <- seq(from=0,to=1500,by=0.1)
   sirs_model <- function(t, x, params){
     ## define state variables
     S <- x[1]
@@ -268,7 +268,7 @@ plot_sirs <- function(parms){
 }
 
 plot_seir <- function(parms){
-  times <- seq(from=0,to=3500,by=0.1)
+  times <- seq(from=0,to=1500,by=0.1)
   seir_model <- function (t, x, params) {
     ## define state variables
     S <- x[1]
